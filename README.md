@@ -2,6 +2,15 @@
 
 NOTE: This project should be used for authorized testing or educational purposes only. 
 You are free to copy, modify and reuse the source code at your own risk. 
+Original code: https://github.com/secureyourself7/python-keylogger/blob/master/start.py. 
+This version has added "non-logging" keylogger mode.
+
+### Changes from original
+- Added log_nonlogging function
+- Renewed key_callback function
+- Adjusted log_it function
+- Added signal_handler (signal library)
+- General changes in globals
 
 ### Uses
 Some uses of a keylogger are:
@@ -78,3 +87,4 @@ Cyrillic layout is implemented, meaning support for these languages: Russian, Ru
 Please note that this repo is for educational purposes only. No contributors, major or minor, are responsible for any actions made by the software.
 
 Distributed under the MIT license. See [LICENSE](https://github.com/secureyourself7/python-keylogger/blob/master/LICENSE) for more information.
+
